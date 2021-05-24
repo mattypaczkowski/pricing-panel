@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    color: #016ff9;
+    letter-spacing: 1px;
+    width: 560px;
+}
+
+.offer__tittle{
+    color: #888;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 32px 0;
+}
+
+.offer__list {
+    list-style: none;
+    line-height: 1.5;
+    padding: 0 64px;
+}
+
+.offer__list--item {
+    padding: 16px 0;
+    border-top: #016ff9 solid 1px;
+}
+
+.offer__list--item-border {
+    border-bottom: #016ff9 solid 1px;
+}
+
+.offer__price {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.offer__button {
+    padding: 15px 35px;
+    color: #016ff9;
+    border: #016ff9 solid 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.offer__button:hover {
+    background-color: #deeffd;
+}
+
+.offer__button--special {
+    background: #016ff9;
+    color: #fff;
+}
